@@ -1,0 +1,110 @@
+/*
+* CSS
+*/
+* {
+	margin: 5px;
+	padding: 0;
+}
+
+body {
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+	background: #fff;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none; }
+a:active { text-decoration: none; outline: none; -moz-outline-style: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; color: #F23D70; }
+
+/*hides the firefox click border*/
+a:active, input[type="image"] { outline: 0; }
+
+a img { border: none; }
+
+a {color: #000; font-weight: bold; }
+
+/*a span.two{ color: #F23D70; cursor: pointer; }****************/
+
+img.logo{ width:171px; height:56px; background:url(../../../fonts/logo.png) 0 0; }
+img.logo:hover{ background:url(../../../fonts/logo.png) -171px 0; }
+
+#menu {
+    width: 215px;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+	left: 0;
+    position: fixed;
+    height: 100%;
+	background-color: #fff;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0 0 12px 0;
+	padding: 0 0 0 25px; /**************/
+}
+
+#menu ul li.active { color: #F23D70; text-decoration: overline; }
+#menu ul li.section-title{list-style-image: url('../../../projectbrain/b_star.png')}
+#menu ul li.section-title:hover{list-style-image: url('../../../projectbrain/p_star.png')}
+
+#menu a { font-weight: normal }
+#menu ul li.section-title, #menu ul li.section-title a { font-weight: bold}
+#menu ul li.section-title a{margin:0px}
+#menu ul li.section-title:hover { color:#F23D70;}
+
+#maintext li {list-style-image: url('../../../projectbrain/b_star.png')}
+#maintext li:hover {list-style-image: url('../../../projectbrain/p_star.png')}
+
+pre br {
+	display: none;
+}
+
+pre p {
+	display: inline;
+}
+
+pre {
+	margin-left:10px;
+	padding:5px;
+	background-color: #ffddff;
+	border: 1px solid #ffccff;
+}
+
+
+
+#content {
+    height: 100%;
+    margin: 83px 0 0 215px;
+    top: 0;
+}
+
+.container {
+    padding: 5px 5px 25px 5px; 
+}
+
+#content .container {
+	width: 600px;
+}
+
+#content p { width: 600px; margin-bottom: 9px; }
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 400px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }

@@ -1,0 +1,71 @@
+html,body {
+margin 5px;
+}
+#menu {
+background-color:#FFFFFF;
+bottom:0;
+height:100%;
+left:0;
+overflow:auto;
+position:fixed;
+top:0;
+width:215px;
+margin: 5px;
+}
+#menu_int{
+margin:5px;
+	padding:5px 5px 25px;
+}
+#menu_int a {margin:5px}
+#menu_int p{margin:0 0 9px;}
+#menu ul {margin:0 0 12px;
+padding:0px 0 0 25px;}
+#menu li {list-style-image: url('b_star.png');font-weight:bold;margin:5px}
+#menu li:hover {list-style-image: url('p_star.png');}
+#static_body {
+height:100%;
+margin:83px 0 0 215px;
+top:0;
+}
+.content{
+width:800px;
+}
+.content_int{
+	padding:5px 5px 25px;
+}
+img.logo {
+	margin:5px; 5px 14px 5px;
+background:url("http://fania.eu/fonts/logo.png") repeat scroll 0 0 transparent;
+height:56px;
+width:171px;
+}
+img.logo:hover {
+background:url("http://fania.eu/fonts/logo.png") repeat scroll -171px 0 transparent;
+}
+.navCurrent {
+background-color:#F23D70;
+background-image:none;
+border:0 solid #F23D70;
+}
+td a:hover, a:hover {
+color:#F23D70;
+}
+
+.navPath, .navSiblings, .navChildren, .navChildrenBullet, .navJumps, .navJumpsBullet {
+background-color:#FFFFFF;
+background-image:none;
+}
+
+.leftHalf {margin-bottom:0px}
+.rightHalf {clear:both;width:100%}
+
+
+#menu ul li.active { color: #F23D70; text-decoration: overline; }
+#menu ul li.section-title{list-style-image: url('b_star.png')}
+#menu ul li.section-title:hover{list-style-image: url('p_star.png')}
+
+
+#menu a { font-weight: normal }
+#menu ul li.section-title, #menu ul li.section-title a { font-weight: bold}
+#menu ul li.section-title a{margin:0px}
+#menu ul li.section-title:hover { color:#F23D70;}

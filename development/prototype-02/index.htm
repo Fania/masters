@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+
+<title>Prototype 02 : Fania</title>
+
+<link rel='shortcut icon' href='../../fonts/favicon.png' />
+
+<link rel='stylesheet' href='../../ndxz-studio/site/sample/style.css' type='text/css' />
+<!--[if lte IE 6]>
+<link rel='stylesheet' href='http://www.fania.eu/ndxz-studio/site/sample/ie.css' type='text/css' />
+<![endif]-->
+
+<style type='text/css'>
+.grow { float:left; margin-bottom: 18px; }
+	.thumb {  padding:0; text-align:left; display: table; height: 220px; #position: relative; overflow: hidden; width: 220px; }
+
+	.grow strong { margin-top: 3px; text-align: left; display: block; font-weight: normal; text-align: center; }
+	.grow em { font-style: normal; display: none; text-align: center; }
+	
+	.thumb-it { #position: absolute; _top: 50%; display: table-cell; vertical-align: middle; text-align: center; }
+	.thumb-img { #position: relative; width: 220px; display:block; }
+</style>
+
+<script type='text/javascript' src='../../ndxz-studio/site/js/jquery.js'></script>
+<script type='text/javascript' src='../../ndxz-studio/site/js/cookie.js'></script>
+<script type='text/javascript' src='../../ndxz-studio/site/js/expandingMenus.js'></script>
+<!--<script type="text/javascript" src="http://www.fania.eu/ndxz-studio/site/js/fadeLinks.js"></script>-->
+<script type='text/javascript' src='../../ndxz-studio/site/js/grow.vaska.js'></script>
+
+<script type='text/javascript'>
+path = '../../files/gimgs/index.htm';
+
+$(document).ready(function()
+{
+	setTimeout('move_up()', 1);
+	fixMenu(0);
+	expandingMenu(1);
+	fixMenu(2);
+	expandingMenu(3); 
+	fixMenu(4); 
+	expandingMenu(5); 
+	expandingMenu(6); 
+	expandingMenu(7); 
+	expandingMenu(8);
+	fixMenu(9); 
+	fixMenu(10);
+});
+</script>
+
+
+</head>
+
+<body class='section-9'>
+<div id='menu'>
+<div class='container'>
+
+<p><a href="../../index.htm"><img class="logo" src="../../fonts/trans.gif" width="1" height="1" /></a></p>
+<ul>
+<li><a href='../../description/project-description/index.htm' onclick="do_click();">Description</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Inspirations</li>
+<li><a href='../../inspirations/project-inspirations/index.htm' onclick="do_click();">Favorites</a></li>
+<li><a href='../../inspirations/openframeworks/index.htm' onclick="do_click();">OpenFrameworks</a></li>
+<li><a href='../../inspirations/past-big-screen-installations/index.htm' onclick="do_click();">Past BBC Events</a></li>
+<li><a href='../../inspirations/others/index.htm' onclick="do_click();">Others</a></li>
+</ul>
+
+<ul>
+<li><a href='../../projectbrain/index.htm' onclick="do_click();">Project Brain</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Research</li>
+<li><a href='../../research/project-research/index.htm' onclick="do_click();">Books</a></li>
+<li><a href='../../research/bbc/index.htm' onclick="do_click();">BBC</a></li>
+<li><a href='../../research/technical/index.htm' onclick="do_click();">Technical</a></li>
+</ul>
+
+<ul>
+<li><a href='../../requirements/project-requirements/index.htm' onclick="do_click();">Requirements</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Development</li>
+<li><a href='../project-development/index.htm' onclick="do_click();">Prototype 01</a></li>
+<li class='active'><a href='index.htm' onclick="do_click();">Prototype 02</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Outcome</li>
+<li><a href='../../outcome/project-outcome/index.htm' onclick="do_click();">Summary</a></li>
+<li><a href='../../outcome/prototype-03/index.htm' onclick="do_click();">Prototype 03</a></li>
+<li><a href='../../outcome/completed-brain/index.htm' onclick="do_click();">My Brain</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Further Development</li>
+<li><a href='../../further/further-development/index.htm' onclick="do_click();">Technical</a></li>
+<li><a href='../../further/bbc-submission/index.htm' onclick="do_click();">BBC Submission</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Critical Commentary</li>
+<li><a href='../../critical/critical-commentary/index.htm' onclick="do_click();">Initial Thoughts</a></li>
+<li><a href='../../critical/tron-inspiration/index.htm' onclick="do_click();">Tron Inspiration</a></li>
+<li><a href='../../critical/problems-encountered/index.htm' onclick="do_click();">Problems Encountered</a></li>
+<li><a href='../../critical/afterthoughts/index.htm' onclick="do_click();">Afterthoughts</a></li>
+</ul>
+
+<ul>
+<li><a href='../../references/references/index.htm' onclick="do_click();">References</a></li>
+</ul>
+
+<ul>
+<li><a href='../../about/index.htm' onclick="do_click();">About</a></li>
+</ul>
+
+
+
+
+<!-- you must provide a link to Indexhibit on your site someplace - thank you -->
+<!--
+<ul>
+<li>Built with <a href='http://www.indexhibit.org/'>Indexhibit</a></li>
+</ul>
+-->
+
+</div>	
+</div>	
+
+<div id='content'>
+<div class='container'>
+
+<!-- text and image -->
+<p>My second prototype built on the first one but improved a lot of the ideas and techniques used in it. It also included 6 video frames in one large window, simply because I wanted to improve a lot of the previous ideas before specialising in one specific technique. Generally, this prototype mainly focused on optimising the background subtraction and threshold to get the best blob contours as possible. To smoothen the contours, I added an adjustable blur effect. Also, the threshold could be changed manually in the running application. I played with colour effects, like having a random colour for each blob. I also added a transparency attribute for the blob filling. I experimented with the history of blob contours and with the blob centroids (the central point of each blob). In terms of programming I think for this prototype I played a lot with loops.</p>
+
+<p><br />
+</p>
+
+<p><iframe src="http://player.vimeo.com/video/14621825?title=0&#38;byline=0&#38;portrait=0&#38;color=F23D70" width="580" height="435" frameborder="0"></iframe></p>
+
+<p><br />
+</p>
+
+<p><ul id="maintext">
+<li>The first video (top left) was the foreground of that original video with added blur or adjustable threshold.</li>
+<li>The second video (top middle) showed all of the blobs as a pink rectangle and the contour in light blue.</li>
+<li>The third video (top right) was the original video with the contour history trailing behind the current contour.</li>
+<li>The fourth video (bottom left) was a test of going through all pixels of the video and applied some effect to it.</li>
+<li>The fifth video (bottom middle) showed the filled contours with a random colour for each blob and transparency set to around 50%.</li>
+<li>The sixth video (bottom right) was a test of drawing the centroids and their history to form a sort of line. But whenever two blobs merge when they get close to each other, the centroids would jump to another place and the line got messed up. It still worked quite well for some blobs though.</li>
+<li>At the bottom you could see the current amount of simplification for the contours, the blur amount and the threshold and there was some space to draw by clicking and dragging the mouse.</li>
+<li>There were also the customBalls to add by clicking space or b on the keyboard. The drawing line was added to a linestrip to be part of the physics world so that it could interact with the balls.</li>
+</ul></p>
+
+<p><br />
+</p>
+
+<p>Below are the source files of prototype 02 written in pseudo code for easier understanding.</p>
+
+<p><br />
+</p>
+
+<p>main.cpp 
+<pre>
+include stuff</p>
+
+<p>// Main<br />
+//--------------------------------------------------------------<br />
+open window of size 1050,800<br />
+run main c++ file (testApp.cpp)<br />
+</pre></p>
+
+<p><br />
+</p>
+
+<p>testApp.h 
+<pre>
+Include addons like ofxOpenCv, ofxVectorMath, ofxBox2d, ofxContourUtil and ofxBlobTracker</p>
+
+<p>// COLLISION<br />
+customBall class which sets size and colour of balls</p>
+
+<p>name physics worlds<br />
+name the linestrip for the contours<br />
+name the linestrip for drawing line<br />
+name the contact handler for the physics worlds<br />
+name the vector for the customBalls<br />
+name the vector for the balls</p>
+
+<p>name variables for simplification, threshold, font, image, mouse location, and various others</p>
+
+<p>name colour images to store the video pixels in<br />
+name grayscale images to store the foreground and background pixels in</p>
+
+<p>name contour finders to store the contours in</p>
+
+<p>name video grabber for the webcam or video player for movie</p>
+
+<p>name the vector to store the points of the drawing line in</p>
+
+<p>name the blobTracker for the history of contours and blobs<br />
+</pre></p>
+
+<p><br />
+</p>
+
+<p>testApp.cpp 
+<pre>
+// Setup
+//--------------------------------------------------------------
+set background colour</p>
+
+<p>initialise video grabber<br />
+(or load movie)</p>
+
+<p>allocate memory for the original video, the foreground video and background video</p>
+
+<p>set gauss parameters<br />
+create gauss background</p>
+
+<p>load font</p>
+
+<p>// DRAWING<br />
+set number of points of drawing to 0 to begin with</p>
+
+<p>// COLLISION<br />
+allocate memory for original video and contour frame<br />
+initialise physics world<br />
+enable gravity<br />
+set bounds to contour frame only</p>
+
+<p>// BLOB TRAILS<br />
+setup blob listener </p>
+
+<p>// Update<br />
+//--------------------------------------------------------------<br />
+set window title to current framerate for reference</p>
+
+<p>store pixels of input video (camera or movie) into respective frames<br />
+update background and foreground models including blur and threshold values<br />
+find contours using the foreground model</p>
+
+<p>// BLOB TRAILS<br />
+track blobs</p>
+
+<p>// Draw<br />
+//--------------------------------------------------------------<br />
+draw foreground video at 20,40 (top left)<br />
+draw background for contours<br />
+draw contours at 360,40 (top middle)</p>
+
+<p>// TEXT<br />
+write text</p>
+
+<p>// HISTORY<br />
+draw original video at 700,40 (top right)<br />
+draw history of contours at 700,40 (top right)</p>
+
+<p>// VIDEO<br />
+draw background for pixel video<br />
+draw pixel effect of video or live feed at 20,320 (bottom left)</p>
+
+<p>// RANDOM COLOR CONTOURS<br />
+draw background for contours<br />
+draw and fill contours with random colours at 360,320 (bottom middle)</p>
+
+<p>// CENTROIDS<br />
+draw background for centroids<br />
+draw centroids and their history at 700,320 (bottom right)</p>
+
+<p>// BALLS<br />
+draw customBalls</p>
+
+<p>// DRAWING<br />
+draw line on mouseclick at mouse location</p>
+
+<p>// KeyPressed<br />
+//--------------------------------------------------------------<br />
+increase or decrease simplification of contour by clicking left or right<br />
+increase or decrease blur by clicking up or down<br />
+increase or decrease threshold by clicking pageup or pagedown<br />
+draw big balls by clicking space<br />
+draw small balls by clicking b</p>
+
+<p>// MouseDragged<br />
+//--------------------------------------------------------------<br />
+add current point of mouse to drawing array and linestrip</p>
+
+<p>// MousePressed<br />
+//--------------------------------------------------------------<br />
+clear drawing array and linestrip on right click</p>
+
+<p>// MouseReleased<br />
+//--------------------------------------------------------------<br />
+stop adding points to the drawing array and linestrip<br />
+</pre></p>
+<div class='cl'><!-- --></div>
+
+<!-- end text and image -->
+
+</div>
+</div>
+
+</body>
+</html>

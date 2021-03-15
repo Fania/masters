@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+
+<title>Prototype 01 : Fania</title>
+
+<link rel='shortcut icon' href='../../fonts/favicon.png' />
+
+<link rel='stylesheet' href='../../ndxz-studio/site/sample/style.css' type='text/css' />
+<!--[if lte IE 6]>
+<link rel='stylesheet' href='http://www.fania.eu/ndxz-studio/site/sample/ie.css' type='text/css' />
+<![endif]-->
+
+<style type='text/css'>
+.grow { float:left; margin-bottom: 18px; }
+	.thumb {  padding:0; text-align:left; display: table; height: 220px; #position: relative; overflow: hidden; width: 220px; }
+
+	.grow strong { margin-top: 3px; text-align: left; display: block; font-weight: normal; text-align: center; }
+	.grow em { font-style: normal; display: none; text-align: center; }
+	
+	.thumb-it { #position: absolute; _top: 50%; display: table-cell; vertical-align: middle; text-align: center; }
+	.thumb-img { #position: relative; width: 220px; display:block; }
+</style>
+
+<script type='text/javascript' src='../../ndxz-studio/site/js/jquery.js'></script>
+<script type='text/javascript' src='../../ndxz-studio/site/js/cookie.js'></script>
+<script type='text/javascript' src='../../ndxz-studio/site/js/expandingMenus.js'></script>
+<!--<script type="text/javascript" src="http://www.fania.eu/ndxz-studio/site/js/fadeLinks.js"></script>-->
+<script type='text/javascript' src='../../ndxz-studio/site/js/grow.vaska.js'></script>
+
+<script type='text/javascript'>
+path = '../../files/gimgs/index.htm';
+
+$(document).ready(function()
+{
+	setTimeout('move_up()', 1);
+	fixMenu(0);
+	expandingMenu(1);
+	fixMenu(2);
+	expandingMenu(3); 
+	fixMenu(4); 
+	expandingMenu(5); 
+	expandingMenu(6); 
+	expandingMenu(7); 
+	expandingMenu(8);
+	fixMenu(9); 
+	fixMenu(10);
+});
+</script>
+
+
+</head>
+
+<body class='section-9'>
+<div id='menu'>
+<div class='container'>
+
+<p><a href="../../index.htm"><img class="logo" src="../../fonts/trans.gif" width="1" height="1" /></a></p>
+<ul>
+<li><a href='../../description/project-description/index.htm' onclick="do_click();">Description</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Inspirations</li>
+<li><a href='../../inspirations/project-inspirations/index.htm' onclick="do_click();">Favorites</a></li>
+<li><a href='../../inspirations/openframeworks/index.htm' onclick="do_click();">OpenFrameworks</a></li>
+<li><a href='../../inspirations/past-big-screen-installations/index.htm' onclick="do_click();">Past BBC Events</a></li>
+<li><a href='../../inspirations/others/index.htm' onclick="do_click();">Others</a></li>
+</ul>
+
+<ul>
+<li><a href='../../projectbrain/index.htm' onclick="do_click();">Project Brain</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Research</li>
+<li><a href='../../research/project-research/index.htm' onclick="do_click();">Books</a></li>
+<li><a href='../../research/bbc/index.htm' onclick="do_click();">BBC</a></li>
+<li><a href='../../research/technical/index.htm' onclick="do_click();">Technical</a></li>
+</ul>
+
+<ul>
+<li><a href='../../requirements/project-requirements/index.htm' onclick="do_click();">Requirements</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Development</li>
+<li class='active'><a href='index.htm' onclick="do_click();">Prototype 01</a></li>
+<li><a href='../prototype-02/index.htm' onclick="do_click();">Prototype 02</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Outcome</li>
+<li><a href='../../outcome/project-outcome/index.htm' onclick="do_click();">Summary</a></li>
+<li><a href='../../outcome/prototype-03/index.htm' onclick="do_click();">Prototype 03</a></li>
+<li><a href='../../outcome/completed-brain/index.htm' onclick="do_click();">My Brain</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Further Development</li>
+<li><a href='../../further/further-development/index.htm' onclick="do_click();">Technical</a></li>
+<li><a href='../../further/bbc-submission/index.htm' onclick="do_click();">BBC Submission</a></li>
+</ul>
+
+<ul>
+<li class='section-title'>Critical Commentary</li>
+<li><a href='../../critical/critical-commentary/index.htm' onclick="do_click();">Initial Thoughts</a></li>
+<li><a href='../../critical/tron-inspiration/index.htm' onclick="do_click();">Tron Inspiration</a></li>
+<li><a href='../../critical/problems-encountered/index.htm' onclick="do_click();">Problems Encountered</a></li>
+<li><a href='../../critical/afterthoughts/index.htm' onclick="do_click();">Afterthoughts</a></li>
+</ul>
+
+<ul>
+<li><a href='../../references/references/index.htm' onclick="do_click();">References</a></li>
+</ul>
+
+<ul>
+<li><a href='../../about/index.htm' onclick="do_click();">About</a></li>
+</ul>
+
+
+
+
+<!-- you must provide a link to Indexhibit on your site someplace - thank you -->
+<!--
+<ul>
+<li>Built with <a href='http://www.indexhibit.org/'>Indexhibit</a></li>
+</ul>
+-->
+
+</div>	
+</div>	
+
+<div id='content'>
+<div class='container'>
+
+<!-- text and image -->
+<p>I started developing my project by looking at the existing examples within openFrameworks and coping the project files as a base for my work (which is actually the recommended way of creating a new project... see <a href="../../../wiki.openframeworks.cc/index_C61DC311.php">here</a>). I then added more and more code and addons to my project and ended up with my first prototype. See below.</p>
+
+<p><br />
+</p>
+
+<p><iframe src="http://player.vimeo.com/video/14429540?title=0&#38;byline=0&#38;portrait=0&#38;color=F23D70" width="580" height="435" frameborder="0"></iframe></p>
+
+<p><br />
+</p>
+
+<p>My first prototype included 6 different video frames within one window to save space and effort. A lot of the code I had written was reused by each of the 6 individual frames and therefore it just made more sense to put them together into one code project. It was mainly a test of several different techniques and basic things like drawing a video on the screen, writing static text or outputting variables that can be adjusted by specific keys. I tested how the physics addon works, how to play with colours and mouse events. I also started to play with the idea of adding a contour to the physics world so they can interact with balls or other contours maybe. The input could be adjusted in the code so either a movie would play in a loop or the live camera feed would be shown.</p>
+
+<p><br />
+</p>
+
+<p><ul id="maintext">
+<li>The first video (top left) was just the original movie or live camera feed as a reference.</li>
+<li>The second video (top middle) was the foreground of that original video.</li>
+<li>The third (top right) was the background, which adjusted over time.</li>
+<li>The fourth video (bottom left) was the original video with a contour on top of it that interacted with balls that could be created by pressing space or the b key on the keyboard.</li>
+<li>The fifth video (bottom middle) showed all of the blobs as a pink rectangle and the contour in light blue.</li>
+<li>The sixth video (bottom right) was just an image. When you moved your mouse over it, it showed the current pixel colour in a big circle.</li>
+<li>At the bottom you could see the current amount of simplification for the contours and there was some space to draw by clicking and dragging the mouse.</li>
+<li>There were also some pink balls floating around that you could grab with your mouse and they changed colour on collision with other balls.</li>
+</ul></p>
+
+<p><br />
+</p>
+
+<p>Below the source files of prototype 01 are shown written in pseudo code for easier understanding.</p>
+
+<p><br />
+</p>
+
+<p>main.cpp 
+<pre>
+include stuff</p>
+
+<p>// Main<br />
+//--------------------------------------------------------------<br />
+open window of size 1050,800<br />
+run main c++ file (testApp.cpp)<br />
+</pre></p>
+
+<p><br />
+</p>
+
+<p>testApp.h  
+<pre>
+include addons ofxOpenCv, ofxVectorMath, ofxBox2d and ofxContourAnalysis</p>
+
+<p>// COLLISION<br />
+customBall class which sets size and colour of balls</p>
+
+<p>name physics worlds<br />
+name the linestrip for the contours<br />
+name the contact handler for the physics worlds<br />
+name the vector for the customBalls<br />
+name the vector for the balls</p>
+
+<p>name variables for simplification, threshold, font, image, mouse location, and various others</p>
+
+<p>name colour images to store the video pixels in<br />
+name grayscale images to store the foreground and background pixels in</p>
+
+<p>name contour finders to store the contours in</p>
+
+<p>name video grabber for the webcam or video player for movie</p>
+
+<p>name the vector to store the points of the drawing line in<br />
+</pre></p>
+
+<p><br />
+</p>
+
+<p>testApp.cpp 
+<pre>
+// Setup
+//--------------------------------------------------------------
+set background colour</p>
+
+<p>initialise video grabber<br />
+(or load movie)</p>
+
+<p>allocate memory for the original video, the foreground video and background video</p>
+
+<p>set gauss parameters<br />
+create gauss background</p>
+
+<p>load font</p>
+
+<p>// PIXELS<br />
+load image<br />
+save pixels of image into array</p>
+
+<p>// DRAWING<br />
+set number of points of drawing to 0 to begin with</p>
+
+<p>// BALLS<br />
+initialise physics world<br />
+enable Gravity<br />
+enable grabbing of mouse</p>
+
+<p>create customBalls</p>
+
+<p>// COLLISION<br />
+allocate memory for original video and contour frame<br />
+initialise physics world<br />
+enable gravity<br />
+set bounds to contour frame only</p>
+
+<p>// Update<br />
+//--------------------------------------------------------------<br />
+store pixels of input video (camera or movie) into respective frames<br />
+update background and foreground models<br />
+find contours using the foreground model</p>
+
+<p>// COLLISION<br />
+find contours for collision frame</p>
+
+<p>for each blob:<br />
+  simplify the contour<br />
+  make each contour to a linestrip which enables them to interact with the physics world</p>
+
+<p>// Draw<br />
+//--------------------------------------------------------------<br />
+draw original video at 20,40 (top left)<br />
+draw foreground at 360,40 (top middle)<br />
+draw background at 700,40 (top right)</p>
+
+<p>// CONTOURS<br />
+draw background for contours<br />
+draw contours at 360,320 (bottom middle)</p>
+
+<p>// TEXT<br />
+write strings</p>
+
+<p>// PIXELS<br />
+draw image at 700,320 (bottom right)<br />
+draw circle in color of current pixel at mouse location    </p>
+
+<p>// COLLISION<br />
+draw original video for collision at 20,320 (bottom left)<br />
+draw contours for collision at 20,320 (bottom left)<br />
+draw the linestrips on top of the contour</p>
+
+<p>// BALLS<br />
+draw customBalls</p>
+
+<p>// DRAWING<br />
+draw line on mouseclick at mouse location </p>
+
+<p>// KeyPressed<br />
+//--------------------------------------------------------------<br />
+increase or decrease simplification of contour by clicking left or right<br />
+draw big balls by clicking space<br />
+draw small balls by clicking b</p>
+
+<p>// MouseDragged<br />
+//--------------------------------------------------------------<br />
+add current point of mouse to drawing array</p>
+
+<p>// MousePressed<br />
+//--------------------------------------------------------------<br />
+clear drawing array on right click</p>
+
+<p>// MouseReleased<br />
+//--------------------------------------------------------------<br />
+stop adding points to the drawing array</p>
+
+<p>//--------------------------------------------------------------<br />
+add contact handlers for physics world</p>
+
+<p>make balls change color on collision<br />
+make customBalls turn pink again after collision<br />
+</pre></p>
+<div class='cl'><!-- --></div>
+
+<!-- end text and image -->
+
+</div>
+</div>
+
+</body>
+</html>
