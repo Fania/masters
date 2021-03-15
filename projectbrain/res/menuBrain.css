@@ -50,7 +50,7 @@ TD {
 
 input
 {
-	font-size: 12px;
+	font-size: small;
 /*
   color: #781351;
   background: #ffffff;
@@ -78,7 +78,7 @@ table TD text interface (for webNav.jsp)
 
 .navCurrent {
 	color: White;
-	font-size: x-small;
+	font-size: small;
 	font-weight: bold;
 	border: 0px solid #000000;
 	background-color: #00309B;
@@ -86,7 +86,7 @@ table TD text interface (for webNav.jsp)
 }
 
 .navPath, .navSiblings, .navChildren, .navChildrenBullet, .navJumps, .navJumpsBullet {
-	font-size: x-small;
+	font-size: small;
 	border: 0px solid #ccc;
 	background-color: #F1F6FA;
 	background-image: url(images/otherBack2.gif);
@@ -101,7 +101,7 @@ table TD text interface (for webNav.jsp)
 }
 
 .navGrandChildren {
-	font-size: xx-small;
+	font-size: x-small;
 }
 
 /*

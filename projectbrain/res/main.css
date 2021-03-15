@@ -9,7 +9,7 @@ img {
 body {
 	font-family: Arial;
 	background-color: #fff;
-	font-size: small;
+	font-size: 1em;
 	color: #000;
 }
 
@@ -51,7 +51,7 @@ content backgrounds
 .unitContent {
   background-color: #fff;
   padding:5px;
-	font-size: x-small;
+	font-size: small;
 }
 
 .simpleContent {
